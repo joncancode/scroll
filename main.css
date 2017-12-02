@@ -1,12 +1,30 @@
 #intro {
     background-color: lightskyblue;
+    height: 80vh;
+    margin-bottom: 30px;
 }
 
 #main {
     background-color: lightblue;
+    margin-bottom: 30px;
 }
+
+.project {
+    text-align: center;
+    padding: 100px;
+    border-bottom: 1px red solid;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 1s ease-out;
+}
+
+.project.fade-in{
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 .footer-container{
     background-color: lightcoral;
-    padding: 10px;
+    height: 60vh;
 }
