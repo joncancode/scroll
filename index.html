@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -6,27 +7,54 @@
     <link rel="stylesheet" href="main.css">
     <title>Scroll</title>
 </head>
-<body>
-    
-<!-- container = ".scroll" -->
-<div class='scroll'>
-    <!-- graphic = ".scroll__graphic" -->
-    <div class='scroll__graphic'>
-        
-      <!--graphic / chart code here-->
-    </div>
-    <div class='scroll__text'>
-      <!-- steps = ".step" -->
-      <div class='step' data-step='a'>first</div>
-      <div class='step' data-step='b'>second</div>
-      <div class='step' data-step='c'>third</div>
-    </div>
-  </div>
 
-  <script
-  src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
-  <script src="app.js"></script>
+<body>
+
+<div id="intro">
+    <div class="container">
+        <h1>intro stuff</h1>
+        <p>working with scrollmagic</p>
+    </div>
+
+</div>
+<div id="main" class="main-container">
+    <div id='project01' class="project">
+        <h2>first part</h2>
+        <img width="200px" src="https://thejnotes.com/wp-content/uploads/getty-images/2017/11/873843720-cleveland-cavaliers-v-new-york-knicks.jpg.jpg">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id='project02' class="project">
+        <h2>second part</h2>
+        <img width="200px" src="https://usathoopshype.files.wordpress.com/2017/08/gettyimages-830576158.jpg?w=1000&h=600&crop=1">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+
+    <div id='project03' class="project">
+        <h2>third part</h2>
+        <img width="200px" src="https://thenypost.files.wordpress.com/2017/11/knicks11.jpg?quality=90&strip=all&w=1200">
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur
+            sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+    </div>
+</div>
+<div class="footer-container">
+    <footer class="wrapper">
+        
+    </footer>
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="app.js"></script>
 </body>
+
 </html>

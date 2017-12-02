@@ -1,3 +1,12 @@
-body {
+#intro {
+    background-color: lightskyblue;
+}
+
+#main {
     background-color: lightblue;
+}
+
+.footer-container{
+    background-color: lightcoral;
+    padding: 10px;
 }
