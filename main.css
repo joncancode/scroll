@@ -12,9 +12,8 @@
 .project {
     text-align: center;
     padding: 100px;
-    border-bottom: 1px red solid;
     opacity: 0;
-    transform: translateY(50px);
+    transform: translateX(30vh);
     transition: all 1s ease-out;
 }
 
