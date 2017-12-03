@@ -11,6 +11,22 @@ $(document).ready(function() {
   .setPin('#intro', {pushFollowers: false})
   .addTo(controller)
 
+  //parallax scene
+
+//   let parallaxTL = new TimelineMax()
+//   parallaxTL
+//     .from('.content-wrapper', 0.4, {autoAlpha: 0, ease: power0.easeNone}, 0.4)
+//     .from('.bcg', 1, {y: '-50', ease: Power0.easeNone}, 0)
+
+
+  let slideParallaxScene = new ScrollMagic.Scene({
+    triggerElement: '.bcg-parallax',
+    triggerHook: 1,
+    duration: '100%'
+  })
+  .setTween(TweenMax.from('.bcg', 1, {y: '-170', ease: Power0.easeNone}))
+  .addTo(controller)
+
   //loop thru proj elements
   $('.project').each(function() {
     //build scene
