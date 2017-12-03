@@ -1,17 +1,23 @@
 #intro {
     background-color: lightskyblue;
-    height: 80vh;
-    margin-bottom: 30px;
+    padding: 175px;
+}
+
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* align horizontal */
+    align-items: center; /* align vertical */
 }
 
 #main {
     background-color: lightblue;
-    margin-bottom: 30px;
+    position: relative;
 }
 
 .project {
     text-align: center;
-    padding: 100px;
     opacity: 0;
     transform: translateX(30vh);
     transition: all 1s ease-out;

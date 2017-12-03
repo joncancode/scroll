@@ -2,6 +2,16 @@ $(document).ready(function() {
   //init scrollmagic
   let controller = new ScrollMagic.Controller();
 
+  //pin intro
+  let pinIntroScene = new ScrollMagic.Scene({
+    triggerElement: '#intro',
+    triggerHook: 0,
+    duration: '40%'
+  })
+  .setPin('#intro', {pushFollowers: false})
+  .addTo(controller)
+
+  //loop thru proj elements
   $('.project').each(function() {
     //build scene
     let myScene = new ScrollMagic.Scene({
